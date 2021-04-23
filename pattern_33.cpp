@@ -29,7 +29,7 @@ void printPattern(int n)
         num = num - row + 1;
         for (int cst = 1; cst <= nst; cst++) // cst - no. of stars in the column
         {
-            if (num == 10)
+            if (num == n)
                 cout << "0 ";
             else
                 cout << num << " ";
